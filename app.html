@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Attendance Management System</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>School Attendance Management System</h1>
+    </header>
+    <main>
+      <section id="dateSelection">
+        <h2>Select Date</h2>
+        <input type="date" id="attendanceDate">
+        <button onclick="fetchAttendanceForm()">Submit</button>
+      </section>
+      <section id="attendanceForm">
+        <!-- Attendance form will be dynamically rendered here -->
+      </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
